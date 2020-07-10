@@ -1,4 +1,4 @@
-package com.activemesa.behavioral.chainofresponsabilty.brokerchain;
+package com.activemesa.patterns.behavioral.chainofresponsabilty.brokerchain;
 
 import java.util.HashMap;
 import java.util.Map;

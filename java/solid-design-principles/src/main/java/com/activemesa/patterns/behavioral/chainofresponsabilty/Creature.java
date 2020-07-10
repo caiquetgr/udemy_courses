@@ -1,4 +1,4 @@
-package com.activemesa.behavioral.chainofresponsabilty;
+package com.activemesa.patterns.behavioral.chainofresponsabilty;
 
 import java.util.ArrayList;
 import java.util.List;

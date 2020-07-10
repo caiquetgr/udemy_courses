@@ -1,4 +1,4 @@
-package com.activemesa.behavioral.command;
+package com.activemesa.patterns.behavioral.command;
 
 import lombok.ToString;
 

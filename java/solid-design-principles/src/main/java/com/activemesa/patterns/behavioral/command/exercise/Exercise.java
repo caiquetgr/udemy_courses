@@ -1,4 +1,4 @@
-package com.activemesa.behavioral.command.exercise;
+package com.activemesa.patterns.behavioral.command.exercise;
 
 class Command {
     enum Action {

@@ -1,4 +1,4 @@
-package com.activemesa.behavioral.chainofresponsabilty.methodchain;
+package com.activemesa.patterns.behavioral.chainofresponsabilty.methodchain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
