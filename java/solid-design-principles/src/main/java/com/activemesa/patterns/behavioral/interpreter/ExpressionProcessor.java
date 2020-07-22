@@ -10,6 +10,6 @@ class ExpressionProcessor
   public int calculate(String expression)
   {
     // todo
-    return null;
+    return 0;
   }
 }
