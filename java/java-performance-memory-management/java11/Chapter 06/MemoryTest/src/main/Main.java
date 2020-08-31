@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String args[]) {
 		Main main = new Main();
-		main.start();
+		main.start(); //AZB
 	}
 	
 	public void start() {
@@ -12,7 +12,7 @@ public class Main {
 		Container container = new Container();
 		container.setInitial("C");
 		another(container,last);
-		System.out.print(container.getInitial());
+		System.out.print(container.getInitial()); // B
 	}
 	
 	public void another(Container initialHolder, String newInitial) {
@@ -20,7 +20,7 @@ public class Main {
 		initialHolder.setInitial("B");
 		Container initial2 = new Container();
 		initialHolder=initial2;
-		System.out.print(initialHolder.getInitial());
-		System.out.print(newInitial);
+		System.out.print(initialHolder.getInitial()); // A
+		System.out.print(newInitial); // Z
 	}
 }
