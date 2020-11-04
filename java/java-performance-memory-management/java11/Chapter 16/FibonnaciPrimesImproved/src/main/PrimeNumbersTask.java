@@ -5,8 +5,8 @@ import java.util.List;
 public class PrimeNumbersTask implements Runnable {
 
 	private List<Integer> primes = new ArrayList<Integer>();
-	private Integer lastNumberChecked;
-	private Integer lastNumberRetrieved = 0;
+	private int lastNumberChecked;
+	private int lastNumberRetrieved = 0;
 	private NumberChecker checker;
 	private Boolean finished;
 
@@ -14,7 +14,7 @@ public class PrimeNumbersTask implements Runnable {
 
 		//only the add really needs to be synchronized
 		synchronized (this) {
-			Integer testNumber = lastNumberChecked + 1;
+			int testNumber = lastNumberChecked + 1;
 			while (!checker.isPrime(testNumber)) {
 				testNumber++;
 			}
